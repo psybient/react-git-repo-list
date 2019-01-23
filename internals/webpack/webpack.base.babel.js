@@ -24,6 +24,12 @@ module.exports = options => ({
   ), // Merge with env dependent settings
   optimization: options.optimization,
   module: {
+  //   loaders: [
+  //     {
+  //     test: require.resolve('jquery'),
+  //     loader: 'expose-loader?jQuery!expose-loader?$'
+  //     }
+  // ],
     rules: [
       {
         test: /\.js$/, // Transform all .js files required somewhere with Babel
@@ -122,7 +128,12 @@ module.exports = options => ({
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
       },
     }),
-  ]),
+    // new webpack.ProvidePlugin({
+    //   $:'jquery',
+    //   'jQuery':'jquery'
+    // }),
+  ]), 
+ 
   resolve: {
     modules: ['node_modules', 'app'],
     extensions: ['.js', '.jsx', '.react.js'],
