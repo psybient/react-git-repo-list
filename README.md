@@ -1,53 +1,5 @@
-<img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
+# Introduction
 
-<br />
-
-<div align="center"><strong>Start your next react project in seconds</strong></div>
-<div align="center">A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices</div>
-
-<br />
-
-<div align="center">
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate.svg" alt="Dependency Status" />
-  </a>
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate/dev-status.svg" alt="devDependency Status" />
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/react-boilerplate/react-boilerplate">
-    <img src="https://travis-ci.org/react-boilerplate/react-boilerplate.svg" alt="Build Status" />
-  </a>
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/react-boilerplate/react-boilerplate">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate/badge.svg" alt="Test Coverage" />
-  </a>
-  <a href="https://spectrum.chat/react-boilerplate">
-  <img alt="Chat with us on Spectrum" src="https://withspectrum.github.io/badge/badge.svg" />
-</a>
-
-</div>
-<div align="center">
-    <!-- Backers -->
-  <a href="#backers">
-    <img src="https://opencollective.com/react-boilerplate/backers/badge.svg" alt="Backers" />
-  </a>
-      <!-- Sponsors -->
-  <a href="#sponsors">
-    <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
-  </a>
-  <a href="http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-boilerplate">
-    <img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <sub>Created by <a href="https://twitter.com/mxstbr">Max Stoiber</a> and maintained with ❤️ by an amazing <a href="https://github.com/orgs/react-boilerplate/teams/core">team of developers</a>.</sub>
-</div>
 
 ## Features
 
@@ -55,8 +7,6 @@
   <dt>Quick scaffolding</dt>
   <dd>Create components, containers, routes, selectors and sagas - and their tests - right from the CLI!</dd>
 
-  <dt>Instant feedback</dt>
-  <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!</dd>
 
   <dt>Predictable state management</dt>
   <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
@@ -85,16 +35,15 @@
 
 But wait... there's more!
 
-- _The best test setup:_ Automatically guarantee code quality and non-breaking
+- _test setup:_ Automatically guarantee code quality and non-breaking
   changes. (Seen a react app with 100% test coverage before?)
-- _Native web app:_ Your app's new home? The home screen of your users' phones.
-- _The fastest fonts:_ Say goodbye to vacant text.
-- _Stay fast_: Profile your app's performance from the comfort of your command
+- _Native web app:_ 
+- _Profile your app's performance from the command
   line!
 - _Catch problems:_ AppVeyor and TravisCI setups included by default, so your
   tests get run automatically on Windows and Unix.
 
-There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions.
+There’s also a <a href="https://vimeo.com/168648012"> video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions.
 
 <sub><i>Keywords: React.js, Redux, Hot Reloading, ESNext, Babel, react-router, Offline First, ServiceWorker, `styled-components`, redux-saga, FontFaceObserver</i></sub>
 
@@ -109,10 +58,10 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 
 Now you're ready to rumble!
 
-> Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
+> this  is **production-ready** project, for basic information visit https://github.com/petehunt/react-howto.
 
 ## Documentation
-
+- [**Zurb Foundation"**](docs/zurb/introduction.md): An introduction to ZURB Foundation.
 - [**The Hitchhikers Guide to `react-boilerplate`**](docs/general/introduction.md): An introduction for newcomers to this boilerplate.
 - [Overview](docs/general): A short overview of the included tools
 - [**Commands**](docs/general/commands.md): Getting the most out of this boilerplate
@@ -152,5 +101,6 @@ This project would not be possible without the support by these amazing folks. [
 
 ## License
 
-This project is licensed under the MIT license, Copyright (c) 2018 Maximilian
-Stoiber. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2018 Meraat. For more information see `LICENSE.md`.
+
+
